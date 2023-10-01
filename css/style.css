@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,800;0,900;1,200;1,300;1,500&family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&family=Roboto:ital,wght@0,300;1,100;1,300&family=Tilt+Prism&display=swap');
+
+
+:root{
+/* ## Colors
+### Primary */
+--Pale-blue: hsl(225, 100%, 94%);
+--Bright-blue: hsl(245, 75%, 52%);
+
+/* ### Neutral */
+
+--Very-pale-blue: hsl(225, 100%, 98%);
+--Desaturated-blue: hsl(224, 23%, 55%);
+--Dark-blue: hsl(223, 47%, 23%);
+--Text-color: #2c3854;
+ }
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'League Spartan', sans-serif;
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    font-size:16px;
+    color:var(--Desaturated-blue);
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+    text-align: center;
+    background:#fff;
+    margin:auto;
+    border-radius: 16px;
+    height: 660px;
+    gap:25px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+overflow: hidden;
+-webkit-box-shadow: 2px 10px 20px -3px rgba(0, 0, 0, 0.63);
+    -moz-box-shadow: 2px 10px 20px -3px rgba(0, 0, 0, 0.63);
+    box-shadow: 2px 10px 20px -3px rgba(0, 0, 0, 0.63);
+}
+
+.photo-ilustration{
+    width: 100%;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    margin-top: -16px;
+}
+.content{
+    width: 90%;
+    background: var(--Very-pale-blue);
+    display: flex;
+   border-radius: 16px;
+   flex-direction: row;
+  align-items: center;
+  height: 100px;
+padding-left: 20px;
+
+
+}
+
+ h1{
+    color:var(--Text-color);
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.ofert{
+   display: flex;
+   align-items: center;
+   width: 100%;
+
+}
+.ofert p{
+    width: 30%;
+
+    line-height: 20px;
+}
+.ofert a {
+    color:var(--Bright-blue);
+    font-weight: 600;
+
+    font-size: 15px;
+    margin-left: 110px;
+
+}
+a:hover {
+    color: #695fc0;
+}
+.ofert span{
+    font-weight: 600;
+    color: var(--Text-color);
+}
+.texto-principal p{
+width: 70%;
+align-items: center;
+text-align: center;
+margin:auto;
+font-size: 18px;
+line-height: 20px;
+}
+
+/*---BOTTOM----*/
+.botons{
+    margin:0;
+}
+.btn1{
+    background-color: #382ae1;
+        font-weight: 600;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 13px 91px;
+        cursor: pointer;
+        margin-bottom: 30px;
+        box-shadow: #acb7c3 0px 13px 20px;
+        text-align: center;
+}
+.btn1:hover {
+    background-color: #574bbb;
+}
+
+.btn2{
+    font-size: 12px;
+    color: #4c5d6f;
+    cursor: pointer;
+    border:none;
+    background: none;
+    font-weight: 800;
+}
+.btn2:hover{
+    color: #1c2333;
+}
+/*footer*/
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
